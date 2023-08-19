@@ -19,4 +19,6 @@ urlpatterns = [
         name='site_path'
     ),
     path('', views.home),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('autos/', include('autos.urls')),
 ]

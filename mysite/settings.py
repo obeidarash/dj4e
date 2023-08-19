@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'polls',
     'home',
     'hello',
+    'autos',
     ]
 
 MIDDLEWARE = [
