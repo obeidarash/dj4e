@@ -5,6 +5,7 @@
 
 <p>
   <form action="" method="post" id="upload_form" enctype="multipart/form-data">
+      <input type="text" value="tags" label="Tags" name="tags">
     {% csrf_token %}
     {{ form|crispy }}
     <input type="submit" value="Submit">
